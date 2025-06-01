@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: demo-app
-        image: <your_ecr_repo_url>:latest  # Replace with your actual ECR image URL
+        image: 629965575604.dkr.ecr.us-east-1.amazonaws.com/my-repo-1  # Replace with your actual ECR image URL
         ports:
         - containerPort: 3000
         imagePullPolicy: Always
