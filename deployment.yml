@@ -18,5 +18,5 @@ spec:
       - name: demo-app
         image: <your_ecr_repo_url>:latest  # Replace with your actual ECR image URL
         ports:
-        - containerPort: 8000
+        - containerPort: 3000
         imagePullPolicy: Always
